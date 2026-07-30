@@ -30,7 +30,6 @@ const projects: Project[] = [
   gradient: "linear-gradient(135deg,#F59E0B,#EF4444)",
   image: evershopImage,
   github: "https://github.com/Riya-te/aws-evershop-cloud-deployment-intership-project.git",
-  demo: "https://evershop.riyaa.xyz"
 
   },
   {
@@ -188,13 +187,13 @@ function ProjectCard({ p, i }: { p: Project; i: number }) {
               className="inline-flex items-center gap-1.5 rounded-lg bg-white/5 px-3 py-1.5 text-xs font-medium transition-colors hover:bg-white/10">
               <ExternalLink className="size-3.5" /> Code
             </a>
-            {p.demo ? (
+            {/* {p.demo ? (
               <a href={p.demo} target="_blank" rel="noreferrer"
                 className="inline-flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-xs font-medium text-white"
                 style={{ background: "linear-gradient(135deg,#3B82F6,#8B5CF6)" }}>
                 <ExternalLink className="size-3.5" /> Live
               </a>
-            ) : null}
+            ) : null} */}
           </div>
           <button onClick={() => setOpen(!open)} className="inline-flex items-center gap-1 text-xs text-muted-foreground hover:text-foreground">
             {open ? "Less" : "More"}

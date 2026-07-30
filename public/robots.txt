@@ -1,0 +1,5 @@
+User-agent: *
+
+Allow: /
+
+Sitemap: https://portfolio.riyaa.xyz/sitemap.xml
