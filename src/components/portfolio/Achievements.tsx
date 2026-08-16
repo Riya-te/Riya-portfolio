@@ -13,7 +13,7 @@ type Achievement = {
 const achievements: Achievement[] = [
   {
     Icon: Trophy,
-    title: "490+ LeetCode Problems",
+    title: "530+ LeetCode Problems",
     detail: "Consistent problem solving across data structures, algorithms, SQL, and system design patterns.",
     color: "#F59E0B",
   },
