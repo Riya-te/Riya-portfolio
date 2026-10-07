@@ -5,7 +5,7 @@ import { Cloud, Code2, Cpu, GitBranch } from "lucide-react";
 const stats = [
   { icon: Cloud, label: "Cloud", value: "AWS" },
   { icon: Code2, label: "CGPA", value: "9.45" },
-  { icon: GitBranch, label: "DSA Problems", value: "530+" },
+  { icon: GitBranch, label: "DSA Problems", value: "610+" },
   { icon: Cpu, label: "Focus", value: "DevOps" },
 ];
 
@@ -35,7 +35,7 @@ export function About() {
           </p>
           <p>
             Alongside engineering, I sharpen my <span className="font-semibold text-foreground">problem-solving</span>
-            on LeetCode (530+ problems solved) and serve as an Executive Member of the
+            on LeetCode (610+ problems solved) and serve as an Executive Member of the
             SBU Coding Club — a continuous learner shipping production-grade DevOps
             projects and full-stack applications.
           </p>

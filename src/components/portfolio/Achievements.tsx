@@ -13,9 +13,15 @@ type Achievement = {
 const achievements: Achievement[] = [
   {
     Icon: Trophy,
-    title: "530+ LeetCode Problems",
+    title: "610+ LeetCode Problems",
     detail: "Consistent problem solving across data structures, algorithms, SQL, and system design patterns.",
     color: "#F59E0B",
+  },
+  {
+    Icon: Trophy,
+    title: "IBM National Hackathon winner 2026",
+    detail: "winner of a national finalist at the IBM Expert Labs National Hackathon 2026 in Coimbatore.",
+    color: "#0F62FE",
   },
   {
     Icon: GraduationCap,

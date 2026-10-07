@@ -5,12 +5,16 @@ import awsCloudImage from "../../assets/certification/aws-cloud-practitoner-esse
 import elevanceSkillsImage from "../../assets/certification/elevanceskills-Cloud-Technology-Training-Certificate.pdf";
 import hackathonImage from "../../assets/certification/kcc-noida-hackathon.pdf";
 import mentorImage from "../../assets/certification/skillfied-mentor-intership.jpeg";
+import ibmCertificateImage from "../../assets/certification/ibm_certificate.jpeg";
+import ibmFinalistImage from "../../assets/certification/ibm_fiinalist.jpeg";
 
 const certs = [
   { title: "AWS Cloud Practitioner Essentials", org: "AWS", year: "2025", color: "#FF9900", image: awsCloudImage },
   { title: "Cloud Technology Training", org: "ElevanceSkills", year: "2025", color: "#3B82F6", image: elevanceSkillsImage },
   { title: "KCC Noida Hackathon", org: "Hackathon", year: "2024", color: "#f89820", image: hackathonImage },
   { title: "Skillfied Mentor Internship", org: "Internship", year: "2024", color: "#10B981", image: mentorImage },
+  { title: "IBM Expert Labs National Hackathon", org: "Certificate of Excellence", year: "2026", color: "#0F62FE", image: ibmCertificateImage },
+  { title: "IBM National Hackathon winner 2026", org: "Coimbatore", year: "2026", color: "#8B5CF6", image: ibmFinalistImage },
 ];
 
 export function Certifications() {
